@@ -1,6 +1,6 @@
-# ItServiceManagement
+# ITServiceManagement
 
-ItServiceManagement is a is an issue tracking system for IT Help Desks.
+ITServiceManagement is a is an issue tracking system for IT Help Desks.
 Idea based on ServiceNow application concept with ITIL practices implemented. 
 
 
