@@ -4,15 +4,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <%@include file="/src/main/webapp/WEB-INF/views/common/include/meta.jsp" %>
-    <title>IT Service Management | Admin</title>
+    <%@include file="/WEB-INF/views/common/include/meta.jsp" %>
+    <title>IT Service Management | Admin homepage</title>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <!-- .wrapper -->
 <div class="wrapper">
 
-    <%@include file="/src/main/webapp/WEB-INF/views/common/include/header.jsp" %>
-    <%@include file="/src/main/webapp/WEB-INF/views/common/include/aside.jsp" %>
+    <%@include file="/WEB-INF/views/common/include/header.jsp" %>
+    <%@include file="/WEB-INF/views/common/include/aside.jsp" %>
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -30,21 +30,26 @@
 
         <!-- Main content -->
         <section class="content">
+            <h3>Your account</h3>
+            <button type="button" class="btn btn-primary active" href="#">Edit your profile</button>
+            <button type="button" class="btn btn-primary active" href="#">Change your password</button>
 
-            <!-- Your Page Content Here -->
+            <h3>Admin tools</h3>
+            <a href="/admin/createUser" type="button" class="btn btn-primary active">Create user</a>
+            <button type="button" class="btn btn-primary active" href="#">Manage users</button>
 
         </section>
         <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
 
-    <%@include file="/src/main/webapp/WEB-INF/views/common/include/footer.jsp" %>
-    <%@include file="/src/main/webapp/WEB-INF/views/common/include/control-sidebar.jsp" %>
+    <%@include file="/WEB-INF/views/common/include/footer.jsp" %>
+    <%@include file="/WEB-INF/views/common/include/control-sidebar.jsp" %>
 
 </div>
 <!-- /.wrapper -->
 
-<%@include file="/src/main/webapp/WEB-INF/views/common/include/script.jsp" %>
+<%@include file="/WEB-INF/views/common/include/script.jsp" %>
 
 </body>
 </html>
