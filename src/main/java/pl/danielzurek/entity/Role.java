@@ -3,12 +3,22 @@ package pl.danielzurek.entity;
 import javax.persistence.*;
 import java.util.Set;
 
+
 @Entity
 @Table(name = "role")
 public class Role {
     private Long id;
     private String name;
     private Set<User> users;
+
+    public Role() {
+    }
+
+    public Role(Long id, String name, Set<User> users) {
+        this.id = id;
+        this.name = name;
+        this.users = users;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

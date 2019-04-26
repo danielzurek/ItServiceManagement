@@ -7,10 +7,15 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import pl.danielzurek.entity.Role;
 import pl.danielzurek.entity.User;
+import pl.danielzurek.repository.RoleRepository;
+import pl.danielzurek.repository.UserRepository;
 import pl.danielzurek.service.SecurityService;
 import pl.danielzurek.service.UserService;
 import pl.danielzurek.validator.UserValidator;
+
+import java.util.List;
 
 @Controller
 @RequestMapping("/user")
@@ -23,6 +28,9 @@ public class UserController {
 
     @Autowired
     private UserValidator userValidator;
+
+    @Autowired
+    private RoleRepository roleRepository;
 
     @RequestMapping(value = "/registration", method = RequestMethod.GET)
     public String registration(Model model) {
@@ -61,4 +69,9 @@ public class UserController {
 //    public String welcome(Model model) {
 //        return "welcome";
 //    }
+
+    @ModelAttribute("roles")
+    public List<Role> findRoles (Model model){
+        return this.roleRepository.findAll();
+    }
 }

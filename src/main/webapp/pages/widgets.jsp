@@ -436,7 +436,7 @@
             <div class="box-body">
               <!-- Conversations are loaded here -->
               <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
+                <!-- ResolverGroup. Default to the left -->
                 <div class="direct-chat-msg">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-left">Alexander Pierce</span>
@@ -451,7 +451,7 @@
                 </div>
                 <!-- /.direct-chat-msg -->
 
-                <!-- Message to the right -->
+                <!-- ResolverGroup to the right -->
                 <div class="direct-chat-msg right">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-right">Sarah Bullock</span>
@@ -527,7 +527,7 @@
             <div class="box-body">
               <!-- Conversations are loaded here -->
               <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
+                <!-- ResolverGroup. Default to the left -->
                 <div class="direct-chat-msg">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-left">Alexander Pierce</span>
@@ -542,7 +542,7 @@
                 </div>
                 <!-- /.direct-chat-msg -->
 
-                <!-- Message to the right -->
+                <!-- ResolverGroup to the right -->
                 <div class="direct-chat-msg right">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-right">Sarah Bullock</span>
@@ -618,7 +618,7 @@
             <div class="box-body">
               <!-- Conversations are loaded here -->
               <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
+                <!-- ResolverGroup. Default to the left -->
                 <div class="direct-chat-msg">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-left">Alexander Pierce</span>
@@ -633,7 +633,7 @@
                 </div>
                 <!-- /.direct-chat-msg -->
 
-                <!-- Message to the right -->
+                <!-- ResolverGroup to the right -->
                 <div class="direct-chat-msg right">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-right">Sarah Bullock</span>
@@ -709,7 +709,7 @@
             <div class="box-body">
               <!-- Conversations are loaded here -->
               <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
+                <!-- ResolverGroup. Default to the left -->
                 <div class="direct-chat-msg">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-left">Alexander Pierce</span>
@@ -724,7 +724,7 @@
                 </div>
                 <!-- /.direct-chat-msg -->
 
-                <!-- Message to the right -->
+                <!-- ResolverGroup to the right -->
                 <div class="direct-chat-msg right">
                   <div class="direct-chat-info clearfix">
                     <span class="direct-chat-name pull-right">Sarah Bullock</span>

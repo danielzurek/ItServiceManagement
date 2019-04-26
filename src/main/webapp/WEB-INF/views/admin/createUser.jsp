@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <%@include file="/WEB-INF/views/common/include/meta.jsp" %>
-    <title>IT Service Management | Home</title>
+    <title>IT Service Management | Create user</title>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <!-- .wrapper -->
@@ -22,7 +22,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Homepage
+                Admin panel
                 <%--<small>Optional description</small>--%>
             </h1>
             <ol class="breadcrumb">
@@ -34,12 +34,42 @@
         <!-- Main content -->
         <section class="content">
             <form:form method="POST" modelAttribute="userForm" class="form-signin">
-                <h2 class="form-signin-heading">Create your account</h2>
+                <h2 class="form-signin-heading">Create users account</h2>
                 <spring:bind path="username">
                     <div class="form-group ${status.error ? 'has-error' : ''}">
                         <form:input type="text" path="username" class="form-control" placeholder="Username"
                                     autofocus="true"></form:input>
                         <form:errors path="username"></form:errors>
+                    </div>
+                </spring:bind>
+
+                <spring:bind path="firstName">
+                    <div class="form-group ${status.error ? 'has-error' : ''}">
+                        <form:input type="text" path="firstName" class="form-control" placeholder="First name"
+                                    autofocus="true"></form:input>
+                        <form:errors path="firstName"></form:errors>
+                    </div>
+                </spring:bind>
+
+                <spring:bind path="lastName">
+                    <div class="form-group ${status.error ? 'has-error' : ''}">
+                        <form:input type="text" path="lastName" class="form-control" placeholder="Last name"
+                                    autofocus="true"></form:input>
+                        <form:errors path="lastName"></form:errors>
+                    </div>
+                </spring:bind>
+
+                <spring:bind path="roles">
+                    <div class="form-group ${status.error ? 'has-error' : ''}">
+                        <form:select path="roles" items="${roles}" itemValue="id" itemLabel="name"/>
+                        <form:errors path="roles"></form:errors>
+                    </div>
+                </spring:bind>
+
+                <spring:bind path="groups">
+                    <div class="form-group ${status.error ? 'has-error' : ''}">
+                        <form:select path="groups" items="${groups}" itemValue="id" itemLabel="name"/>
+                        <form:errors path="groups"></form:errors>
                     </div>
                 </spring:bind>
 
@@ -59,12 +89,7 @@
                     </div>
                 </spring:bind>
 
-                <spring:bind path="roles">
-                    <div class="form-group ${status.error ? 'has-error' : ''}">
-                    <form:select path="roles" items="${roles}" itemValue="id" itemLabel="name"/>
-                        <form:errors path="roles"></form:errors>
-                    </div>
-                </spring:bind>
+
 
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
             </form:form>

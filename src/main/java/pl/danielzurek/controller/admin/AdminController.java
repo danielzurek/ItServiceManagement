@@ -24,8 +24,6 @@ public class AdminController {
     @Autowired
     private UserService userService;
 
-    @Autowired
-    private SecurityService securityService;
 
     @Autowired
     private UserValidator userValidator;
@@ -55,7 +53,6 @@ public class AdminController {
 
         userService.save(userForm);
 
-        securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
 
         return "redirect:/admin/homepage";
     }
