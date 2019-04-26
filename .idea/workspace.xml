@@ -7,37 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d2cff04-74ca-432f-a6c8-8d66c7ade5f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/model/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/createUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/createUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/top-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/top-nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/widgets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/widgets.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/widgets.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/build/less/dropdown.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/build/less/dropdown.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/documentation/build/include/components.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/documentation/build/include/components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/documentation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/starter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/createUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/createUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/top-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/top-nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/widgets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/widgets.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/widgets.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/build/less/dropdown.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/build/less/dropdown.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/documentation/build/include/components.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/documentation/build/include/components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/documentation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/starter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="255">
               <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
                 <element signature="e#1756#1757#0" expanded="true" />
@@ -405,7 +375,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556292792634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556293149669" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/warsztat6krkw01-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -526,12 +496,12 @@
       <workItem from="1556216365552" duration="2290000" />
       <workItem from="1556218746527" duration="6346000" />
       <workItem from="1556273615861" duration="9018000" />
-      <workItem from="1556282959516" duration="6938000" />
+      <workItem from="1556282959516" duration="7424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71206000" />
+    <option name="totallyTimeSpent" value="71692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -953,7 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="255">
           <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="e#1756#1757#0" expanded="true" />
