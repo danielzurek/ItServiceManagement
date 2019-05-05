@@ -67,7 +67,7 @@
               Some information about this general settings option
             </p>
           </div>
-          <!-- /.form-group -->
+          <!-- /.form-Group -->
         </form>
       </div>
       <!-- /.tab-pane -->

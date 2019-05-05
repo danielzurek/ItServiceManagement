@@ -1,13 +1,12 @@
 package pl.danielzurek.entity;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
 @Entity
 @Table(name = "users")
 public class User {
+
     private Long id;
     private String username;
     private String firstName;
@@ -15,6 +14,10 @@ public class User {
     private String password;
     private String passwordConfirm;
     private Set<Role> roles;
+    private Set<Group> groups;
+
+    public User() {
+    }
 
     public User(Long id, String username, String firstName, String lastName, String password, String passwordConfirm, Set<Role> roles) {
         this.id = id;
@@ -24,9 +27,6 @@ public class User {
         this.password = password;
         this.passwordConfirm = passwordConfirm;
         this.roles = roles;
-    }
-
-    public User() {
     }
 
     @Id
@@ -92,5 +92,27 @@ public class User {
         this.lastName = lastName;
     }
 
+    @ManyToMany(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
+    @JoinTable(name = "users_groups")
+    public Set<Group> getGroups() {
+        return groups;
+    }
 
+    public void setGroups(Set<Group> groups) {
+        this.groups = groups;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", password='" + password + '\'' +
+                ", passwordConfirm='" + passwordConfirm + '\'' +
+                ", roles=" + roles +
+                ", groups=" + groups +
+                '}';
+    }
 }

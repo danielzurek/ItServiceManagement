@@ -7,11 +7,15 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.validation.Validator;
+import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+import pl.danielzurek.converter.CompanyConverter;
+import pl.danielzurek.converter.GroupConverter;
 import pl.danielzurek.converter.RoleConverter;
 import pl.danielzurek.converter.UserConverter;
 
@@ -39,11 +43,13 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/resources/**")
                 .addResourceLocations("/resources/");
     }
+
     @Override
     public void addFormatters(FormatterRegistry registry) {
         registry.addConverter(UserConverter());
         registry.addConverter(RoleConverter());
-
+        registry.addConverter(GroupConverter());
+        registry.addConverter(CompanyConverter());
 
     }
 
@@ -59,13 +65,30 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         JpaTransactionManager tm = new JpaTransactionManager(emf);
         return tm;
     }
+
     @Bean
-    public UserConverter UserConverter(){
+    public UserConverter UserConverter() {
         return new UserConverter();
     }
 
     @Bean
-    public RoleConverter RoleConverter(){
+    public RoleConverter RoleConverter() {
         return new RoleConverter();
+    }
+
+    @Bean
+    public GroupConverter GroupConverter() {
+        return new GroupConverter();
+    }
+
+    @Bean
+    public CompanyConverter CompanyConverter() {
+        return new CompanyConverter();
+    }
+
+
+    @Bean
+    public Validator validator() {
+        return new LocalValidatorFactoryBean();
     }
 }

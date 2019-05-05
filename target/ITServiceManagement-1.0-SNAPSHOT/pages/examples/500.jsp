@@ -50,7 +50,7 @@
                 </button>
               </div>
             </div>
-            <!-- /.input-group -->
+            <!-- /.input-Group -->
           </form>
         </div>
       </div>

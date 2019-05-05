@@ -162,7 +162,7 @@
                         </span>
                     <input type="text" class="form-control">
                   </div>
-                  <!-- /input-group -->
+                  <!-- /input-Group -->
                 </div>
                 <!-- /.col-lg-6 -->
                 <div class="col-lg-6">
@@ -172,7 +172,7 @@
                         </span>
                     <input type="text" class="form-control">
                   </div>
-                  <!-- /input-group -->
+                  <!-- /input-Group -->
                 </div>
                 <!-- /.col-lg-6 -->
               </div>
@@ -194,20 +194,20 @@
                     <li><a href="#">Separated link</a></li>
                   </ul>
                 </div>
-                <!-- /btn-group -->
+                <!-- /btn-Group -->
                 <input type="text" class="form-control">
               </div>
-              <!-- /input-group -->
+              <!-- /input-Group -->
               <p class="margin">Normal</p>
 
               <div class="input-group">
                 <div class="input-group-btn">
                   <button type="button" class="btn btn-danger">Action</button>
                 </div>
-                <!-- /btn-group -->
+                <!-- /btn-Group -->
                 <input type="text" class="form-control">
               </div>
-              <!-- /input-group -->
+              <!-- /input-Group -->
               <p class="margin">Small <code>.input-group.input-group-sm</code></p>
 
               <div class="input-group input-group-sm">
@@ -216,7 +216,7 @@
                       <button type="button" class="btn btn-info btn-flat">Go!</button>
                     </span>
               </div>
-              <!-- /input-group -->
+              <!-- /input-Group -->
             </div>
             <!-- /.box-body -->
           </div>

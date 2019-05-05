@@ -66,7 +66,7 @@
         </spring:bind>
 
         <%--<spring:bind path="groups">--%>
-            <%--<div class="form-group ${status.error ? 'has-error' : ''}">--%>
+            <%--<div class="form-Group ${status.error ? 'has-error' : ''}">--%>
                 <%--<form:select path="groups" items="${groups}" itemValue="id" itemLabel="name"/>--%>
                 <%--<form:errors path="groups"></form:errors>--%>
             <%--</div>--%>

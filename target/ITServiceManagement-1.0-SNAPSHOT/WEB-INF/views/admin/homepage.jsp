@@ -12,32 +12,142 @@
 <div class="wrapper">
 
     <%@include file="/WEB-INF/views/common/include/header.jsp" %>
-    <%@include file="/WEB-INF/views/common/include/aside.jsp" %>
+    <%@include file="/WEB-INF/views/common/include/asideAdmin.jsp" %>
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Homepage
+                Admin panel
                 <%--<small>Optional description</small>--%>
             </h1>
-            <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-                <li class="active">Here</li>
-            </ol>
         </section>
 
         <!-- Main content -->
         <section class="content">
-            <h3>Your account</h3>
-            <button type="button" class="btn btn-primary active" href="#">Edit your profile</button>
-            <button type="button" class="btn btn-primary active" href="#">Change your password</button>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Your account</h3>
 
-            <h3>Admin tools</h3>
-            <a href="/admin/createUser" type="button" class="btn btn-primary active">Create user</a>
-            <button type="button" class="btn btn-primary active" href="#">Manage users</button>
-
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"
+                                        data-toggle="tooltip"
+                                        title="Collapse">
+                                    <i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"
+                                        data-toggle="tooltip"
+                                        title="Remove">
+                                    <i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <button type="button" class="btn btn-primary active" href="#">Edit your profile</button>
+                            <button type="button" class="btn btn-primary active" href="#">Change your password</button>
+                        </div>
+                    </div>
+                    <%--<h3>Admin tools</h3>--%>
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Users</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"
+                                        data-toggle="tooltip"
+                                        title="Collapse">
+                                    <i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"
+                                        data-toggle="tooltip"
+                                        title="Remove">
+                                    <i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <a href="/admin/user/create" type="button" class="btn btn-primary active">Create user</a>
+                            <a href="/admin/user/all" type="button" class="btn btn-primary active">Manage users</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Groups</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"
+                                        data-toggle="tooltip"
+                                        title="Collapse">
+                                    <i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"
+                                        data-toggle="tooltip"
+                                        title="Remove">
+                                    <i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <a href="/admin/group/create" type="button" class="btn btn-primary active">Add group</a>
+                            <a href="/admin/group/all" type="button" class="btn btn-primary active">Manage groups</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Roles</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"
+                                        data-toggle="tooltip"
+                                        title="Collapse">
+                                    <i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"
+                                        data-toggle="tooltip"
+                                        title="Remove">
+                                    <i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <a href="/admin/role/create" type="button" class="btn btn-primary active">Create role</a>
+                            <a href="/admin/role/all" type="button" class="btn btn-primary active">Manage roles</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Companies</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"
+                                        data-toggle="tooltip"
+                                        title="Collapse">
+                                    <i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"
+                                        data-toggle="tooltip"
+                                        title="Remove">
+                                    <i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <a href="/admin/company/create" type="button" class="btn btn-primary active">Add company</a>
+                            <a href="/admin/company/all" type="button" class="btn btn-primary active">Manage
+                                companies</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Customers</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"
+                                        data-toggle="tooltip"
+                                        title="Collapse">
+                                    <i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"
+                                        data-toggle="tooltip"
+                                        title="Remove">
+                                    <i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <a href="/admin/customer/create" type="button" class="btn btn-primary active">Add customer</a>
+                            <a href="/admin/customer/all" type="button" class="btn btn-primary active">Manage customers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- /.content -->
     </div>

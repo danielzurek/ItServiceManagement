@@ -106,7 +106,7 @@
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
                 </div>
-                <!-- /.btn-group -->
+                <!-- /.btn-Group -->
                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
                 <div class="pull-right">
                   1-50/200
@@ -114,7 +114,7 @@
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
                   </div>
-                  <!-- /.btn-group -->
+                  <!-- /.btn-Group -->
                 </div>
                 <!-- /.pull-right -->
               </div>
@@ -273,7 +273,7 @@
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
                 </div>
-                <!-- /.btn-group -->
+                <!-- /.btn-Group -->
                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
                 <div class="pull-right">
                   1-50/200
@@ -281,7 +281,7 @@
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
                   </div>
-                  <!-- /.btn-group -->
+                  <!-- /.btn-Group -->
                 </div>
                 <!-- /.pull-right -->
               </div>

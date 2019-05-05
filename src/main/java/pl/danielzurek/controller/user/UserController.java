@@ -65,10 +65,10 @@ public class UserController {
         return "user/login";
     }
 
-//    @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
-//    public String welcome(Model model) {
-//        return "welcome";
-//    }
+    @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
+    public String welcome(Model model) {
+        return "user/welcome";
+    }
 
     @ModelAttribute("roles")
     public List<Role> findRoles (Model model){

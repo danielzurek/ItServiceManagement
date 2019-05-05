@@ -6,7 +6,9 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 import pl.danielzurek.entity.User;
+import pl.danielzurek.repository.UserRepository;
 import pl.danielzurek.service.UserService;
+
 
 @Component
 public class UserValidator implements Validator {
@@ -37,6 +39,16 @@ public class UserValidator implements Validator {
 
         if (!user.getPasswordConfirm().equals(user.getPassword())) {
             errors.rejectValue("passwordConfirm", "Diff.userForm.passwordConfirm");
+        }
+    }
+
+
+    public void validateEdited(Object o, Errors errors) {
+        User user = (User) o;
+
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "username", "NotEmpty");
+        if (user.getUsername().length() < 6 || user.getUsername().length() > 32) {
+            errors.rejectValue("username", "Size.userFormEdit.username");
         }
     }
 }

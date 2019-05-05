@@ -9,19 +9,19 @@ import java.util.Set;
 public class Role {
     private Long id;
     private String name;
-    private Set<User> users;
+    private Set<User> usersRoles;
 
     public Role() {
     }
 
-    public Role(Long id, String name, Set<User> users) {
+    public Role(Long id, String name, Set<User> usersRoles) {
         this.id = id;
         this.name = name;
-        this.users = users;
+        this.usersRoles = usersRoles;
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long getId() {
         return id;
     }
@@ -39,11 +39,16 @@ public class Role {
     }
 
     @ManyToMany(mappedBy = "roles")
-    public Set<User> getUsers() {
-        return users;
+    public Set<User> getUsersRoles() {
+        return usersRoles;
     }
 
-    public void setUsers(Set<User> users) {
-        this.users = users;
+    public void setUsersRoles(Set<User> usersRoles) {
+        this.usersRoles = usersRoles;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }

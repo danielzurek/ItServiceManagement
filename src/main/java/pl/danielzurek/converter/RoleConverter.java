@@ -14,4 +14,6 @@ public class RoleConverter implements Converter<String, Role> {
     public Role convert(String id) {
         return this.roleRepository.findOne(Long.parseLong(id));
     }
+
+
 }

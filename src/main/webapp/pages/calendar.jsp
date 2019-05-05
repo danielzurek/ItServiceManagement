@@ -80,16 +80,16 @@
                   <li><a class="text-navy" href="#"><i class="fa fa-square"></i></a></li>
                 </ul>
               </div>
-              <!-- /btn-group -->
+              <!-- /btn-Group -->
               <div class="input-group">
                 <input id="new-event" type="text" class="form-control" placeholder="Event Title">
 
                 <div class="input-group-btn">
                   <button id="add-new-event" type="button" class="btn btn-primary btn-flat">Add</button>
                 </div>
-                <!-- /btn-group -->
+                <!-- /btn-Group -->
               </div>
-              <!-- /input-group -->
+              <!-- /input-Group -->
             </div>
           </div>
         </div>

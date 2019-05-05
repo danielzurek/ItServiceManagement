@@ -14,4 +14,5 @@ public class UserConverter implements Converter<String, User> {
     public User convert(String id) {
         return this.userRepository.findOne(Long.parseLong(id));
     }
+
 }

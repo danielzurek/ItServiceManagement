@@ -108,7 +108,7 @@
                   <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-container="body" title="Forward">
                     <i class="fa fa-share"></i></button>
                 </div>
-                <!-- /.btn-group -->
+                <!-- /.btn-Group -->
                 <button type="button" class="btn btn-default btn-sm" data-toggle="tooltip" title="Print">
                   <i class="fa fa-print"></i></button>
               </div>

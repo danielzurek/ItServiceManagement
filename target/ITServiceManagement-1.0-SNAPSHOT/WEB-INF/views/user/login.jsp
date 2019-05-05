@@ -1,68 +1,47 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
+<c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <%@include file="/WEB-INF/views/common/include/meta.jsp" %>
     <title>IT Service Management | Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
-<!-- .wrapper -->
-<div class="wrapper">
-
-    <%@include file="/WEB-INF/views/common/include/header.jsp" %>
-    <%@include file="/WEB-INF/views/common/include/aside.jsp" %>
-
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-            <h1>
-                Homepage
-                <%--<small>Optional description</small>--%>
-            </h1>
-            <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-                <li class="active">Here</li>
-            </ol>
-        </section>
-
-        <!-- Main content -->
-        <section class="content">
-
-            <div class="box-body">
-                <form method="POST" action="${contextPath}/login" class="form-signin">
-                    <h2 class="form-heading">Log in</h2>
-
-                    <div class="form-group ${error != null ? 'has-error' : ''}">
-                        <span>${message}</span>
-                        <input name="username" type="text" class="form-control" placeholder="Username"
-                               autofocus="true"/>
-                        <input name="password" type="password" class="form-control" placeholder="Password"/>
-                        <span>${error}</span>
-                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
-                        <h4 class="text-center"><a href="${contextPath}/user/registration">Create an account</a></h4>
-                    </div>
-
-                </form>
-            </div>
-
-        </section>
-        <!-- /.content -->
+<body class="hold-transition login-page">
+<div class="login-box">
+    <div class="login-logo">
+        <a href="/"><b>ITIL</b>Managment</a>
     </div>
-    <!-- /.content-wrapper -->
+    <!-- /.login-logo -->
+    <div class="login-box-body">
+        <p class="login-box-msg">Sign in</p>
 
-    <%@include file="/WEB-INF/views/common/include/footer.jsp" %>
-    <%@include file="/WEB-INF/views/common/include/control-sidebar.jsp" %>
+        <form method="POST" action="${contextPath}/login" class="form-signin">
+            <div class="form-group has-feedback">
+                <input name="username" type="text" class="form-control" placeholder="Username"
+                       autofocus="true"/>
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input name="password" type="password" class="form-control" placeholder="Password"/>
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                <span>${error}</span>
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                </div>
+                <!-- /.col -->
+            </div>
+        </form>
+        <%--<a href="#">I forgot my password</a><br>--%>
 
+    </div>
 </div>
-<!-- /.wrapper -->
-
-<%@include file="/WEB-INF/views/common/include/script.jsp" %>
 
 </body>
 </html>

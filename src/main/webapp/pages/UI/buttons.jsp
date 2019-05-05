@@ -440,20 +440,20 @@
                     <li><a href="#">Separated link</a></li>
                   </ul>
                 </div>
-                <!-- /btn-group -->
+                <!-- /btn-Group -->
                 <input type="text" class="form-control">
               </div>
-              <!-- /input-group -->
+              <!-- /input-Group -->
               <p>Normal</p>
 
               <div class="input-group margin">
                 <div class="input-group-btn">
                   <button type="button" class="btn btn-danger">Action</button>
                 </div>
-                <!-- /btn-group -->
+                <!-- /btn-Group -->
                 <input type="text" class="form-control">
               </div>
-              <!-- /input-group -->
+              <!-- /input-Group -->
               <p>Flat</p>
 
               <div class="input-group margin">
@@ -462,7 +462,7 @@
                       <button type="button" class="btn btn-info btn-flat">Go!</button>
                     </span>
               </div>
-              <!-- /input-group -->
+              <!-- /input-Group -->
             </div>
             <!-- /.box-body -->
           </div>

@@ -71,7 +71,7 @@
                   <option>Washington</option>
                 </select>
               </div>
-              <!-- /.form-group -->
+              <!-- /.form-Group -->
               <div class="form-group">
                 <label>Disabled</label>
                 <select class="form-control select2" disabled="disabled" style="width: 100%;">
@@ -84,7 +84,7 @@
                   <option>Washington</option>
                 </select>
               </div>
-              <!-- /.form-group -->
+              <!-- /.form-Group -->
             </div>
             <!-- /.col -->
             <div class="col-md-6">
@@ -100,7 +100,7 @@
                   <option>Washington</option>
                 </select>
               </div>
-              <!-- /.form-group -->
+              <!-- /.form-Group -->
               <div class="form-group">
                 <label>Disabled Result</label>
                 <select class="form-control select2" style="width: 100%;">
@@ -113,7 +113,7 @@
                   <option>Washington</option>
                 </select>
               </div>
-              <!-- /.form-group -->
+              <!-- /.form-Group -->
             </div>
             <!-- /.col -->
           </div>
@@ -145,9 +145,9 @@
                   </div>
                   <input type="text" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask>
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- Date mm/dd/yyyy -->
               <div class="form-group">
@@ -157,9 +157,9 @@
                   </div>
                   <input type="text" class="form-control" data-inputmask="'alias': 'mm/dd/yyyy'" data-mask>
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- phone mask -->
               <div class="form-group">
@@ -171,9 +171,9 @@
                   </div>
                   <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask>
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- phone mask -->
               <div class="form-group">
@@ -185,9 +185,9 @@
                   </div>
                   <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']" data-mask>
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- IP mask -->
               <div class="form-group">
@@ -199,9 +199,9 @@
                   </div>
                   <input type="text" class="form-control" data-inputmask="'alias': 'ip'" data-mask>
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
             </div>
             <!-- /.box-body -->
@@ -218,7 +218,7 @@
                 <label>Color picker:</label>
                 <input type="text" class="form-control my-colorpicker1">
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- Color Picker -->
               <div class="form-group">
@@ -231,9 +231,9 @@
                     <i></i>
                   </div>
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- time Picker -->
               <div class="bootstrap-timepicker">
@@ -247,9 +247,9 @@
                       <i class="fa fa-clock-o"></i>
                     </div>
                   </div>
-                  <!-- /.input group -->
+                  <!-- /.input Group -->
                 </div>
-                <!-- /.form group -->
+                <!-- /.form Group -->
               </div>
             </div>
             <!-- /.box-body -->
@@ -274,9 +274,9 @@
                   </div>
                   <input type="text" class="form-control pull-right" id="datepicker">
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- Date range -->
               <div class="form-group">
@@ -288,9 +288,9 @@
                   </div>
                   <input type="text" class="form-control pull-right" id="reservation">
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- Date and time range -->
               <div class="form-group">
@@ -302,9 +302,9 @@
                   </div>
                   <input type="text" class="form-control pull-right" id="reservationtime">
                 </div>
-                <!-- /.input group -->
+                <!-- /.input Group -->
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
               <!-- Date and time range -->
               <div class="form-group">
@@ -319,7 +319,7 @@
                   </button>
                 </div>
               </div>
-              <!-- /.form group -->
+              <!-- /.form Group -->
 
             </div>
             <!-- /.box-body -->
