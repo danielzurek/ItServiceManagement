@@ -1,11 +1,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
 <!-- Main Header -->
 <header class="main-header">
 
 <!-- Logo -->
-<a href="/" class="logo">
+<a href="/admin/homepage" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini"><b>IT</b>IL</span>
     <!-- logo for regular state and mobile devices -->
@@ -30,6 +31,7 @@
     <%--<img src="/resources/dist/img/user.svg" class="user-image" alt="User Image">--%>
     <!-- hidden-xs hides the username on small devices so only the image appears. -->
     <span class="hidden-xs">${pageContext.request.userPrincipal.name}</span>
+    <spa></spa>
 </a>
 <ul class="dropdown-menu">
 <!-- The user image in the menu -->
@@ -54,7 +56,7 @@
     </div>
     </li>
     </ul>
-    </li>>
+    </li>
     </ul>
     </div>
     </nav>

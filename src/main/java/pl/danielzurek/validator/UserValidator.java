@@ -40,6 +40,10 @@ public class UserValidator implements Validator {
         if (!user.getPasswordConfirm().equals(user.getPassword())) {
             errors.rejectValue("passwordConfirm", "Diff.userForm.passwordConfirm");
         }
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "displayName", "NotEmpty");
+        if (userService.findByDisplayName(user.getDisplayName()) != null) {
+            errors.rejectValue("displayName", "Duplicate.userForm.displayName");
+        }
     }
 
 
@@ -49,6 +53,18 @@ public class UserValidator implements Validator {
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "username", "NotEmpty");
         if (user.getUsername().length() < 6 || user.getUsername().length() > 32) {
             errors.rejectValue("username", "Size.userFormEdit.username");
+        }
+    }
+    public void validatePassword(Object o, Errors errors) {
+        User user = (User) o;
+
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "password", "NotEmpty");
+        if (user.getPassword().length() < 8 || user.getPassword().length() > 32) {
+            errors.rejectValue("password", "Size.userForm.password");
+        }
+
+        if (!user.getPasswordConfirm().equals(user.getPassword())) {
+            errors.rejectValue("passwordConfirm", "Diff.userForm.passwordConfirm");
         }
     }
 }

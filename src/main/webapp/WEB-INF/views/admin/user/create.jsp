@@ -57,7 +57,15 @@
                             <form:errors path="lastName"></form:errors>
                         </div>
                     </spring:bind>
-
+                    <spring:bind path="displayName">
+                        <div class="form-group ${status.error ? 'has-error' : ''}">
+                            <label for="displayName">Display Name</label>
+                            <form:input type="text" path="displayName" class="form-control"
+                                        placeholder="Display Name"
+                                        autofocus="true"></form:input>
+                            <form:errors path="displayName"></form:errors>
+                        </div>
+                    </spring:bind>
                     <spring:bind path="roles">
                         <div class="form-group ${status.error ? 'has-error' : ''}">
                             <label for="roles">Add roles</label>

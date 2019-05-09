@@ -41,8 +41,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="#">My account</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a href="/admin/user/profile">My account</a></li>
+                    <li><a onclick="document.forms['logoutForm'].submit()">Logout</a></li>
                 </ul>
             </li>
             </li>

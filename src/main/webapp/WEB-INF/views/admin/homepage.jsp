@@ -43,8 +43,8 @@
                             </div>
                         </div>
                         <div class="box-body">
-                            <button type="button" class="btn btn-primary active" href="#">Edit your profile</button>
-                            <button type="button" class="btn btn-primary active" href="#">Change your password</button>
+                            <a href="/admin/user/profile" type="button" class="btn btn-primary active">Your profile</a>
+                            <a href="/admin/user/password/change" type="button" class="btn btn-primary active">Change password</a>
                         </div>
                     </div>
                     <%--<h3>Admin tools</h3>--%>

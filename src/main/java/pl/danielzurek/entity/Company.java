@@ -129,18 +129,5 @@ public class Company {
         this.companies = companies;
     }
 
-    @Override
-    public String toString() {
-        return "Company{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", street='" + street + '\'' +
-                ", postCode='" + postCode + '\'' +
-                ", city='" + city + '\'' +
-                ", country='" + country + '\'' +
-                ", nip='" + nip + '\'' +
-                ", regon='" + regon + '\'' +
-                ", phoneNumber=" + phoneNumber +
-                '}';
-    }
+
 }

@@ -1,6 +1,7 @@
 package pl.danielzurek.entity;
 
 import javax.persistence.*;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -11,22 +12,27 @@ public class User {
     private String username;
     private String firstName;
     private String lastName;
+    private String displayName;
     private String password;
     private String passwordConfirm;
     private Set<Role> roles;
     private Set<Group> groups;
+    private List<Incident> resolver;
 
     public User() {
     }
 
-    public User(Long id, String username, String firstName, String lastName, String password, String passwordConfirm, Set<Role> roles) {
+    public User(Long id, String username, String firstName, String lastName, String displayName, String password, String passwordConfirm, Set<Role> roles, Set<Group> groups, List<Incident> resolver) {
         this.id = id;
         this.username = username;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.displayName = displayName;
         this.password = password;
         this.passwordConfirm = passwordConfirm;
         this.roles = roles;
+        this.groups = groups;
+        this.resolver = resolver;
     }
 
     @Id
@@ -102,17 +108,22 @@ public class User {
         this.groups = groups;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", password='" + password + '\'' +
-                ", passwordConfirm='" + passwordConfirm + '\'' +
-                ", roles=" + roles +
-                ", groups=" + groups +
-                '}';
+    public String getDisplayName() {
+        return displayName;
     }
+
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
+    }
+
+    @OneToMany
+    public List<Incident> getResolver() {
+        return resolver;
+    }
+
+    public void setResolver(List<Incident> resolver) {
+        this.resolver = resolver;
+    }
+
+
 }

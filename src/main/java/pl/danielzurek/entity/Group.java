@@ -2,6 +2,7 @@ package pl.danielzurek.entity;
 
 
 import javax.persistence.*;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -16,15 +17,17 @@ public class Group {
 
     @ManyToMany(mappedBy = "groups")
     private Set<User> usersGroups;
+    @OneToMany
+    private List <Incident> incidents;
 
     public Group() {
     }
 
-    public Group(String name, Set<User> usersGroups) {
+    public Group(String name, Set<User> usersGroups, List<Incident> incidents) {
         this.name = name;
         this.usersGroups = usersGroups;
+        this.incidents = incidents;
     }
-
 
     public Long getId() {
         return id;
@@ -48,6 +51,14 @@ public class Group {
 
     public void setUsersGroups(Set<User> usersGroups) {
         this.usersGroups = usersGroups;
+    }
+
+    public List<Incident> getIncidents() {
+        return incidents;
+    }
+
+    public void setIncidents(List<Incident> incidents) {
+        this.incidents = incidents;
     }
 
     @Override

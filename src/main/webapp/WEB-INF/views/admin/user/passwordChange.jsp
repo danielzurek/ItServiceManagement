@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <%@include file="/WEB-INF/views/common/include/meta.jsp" %>
-    <title>IT Service Management | Admin homepage</title>
+    <title>IT Service Management | Admin panel</title>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <!-- .wrapper -->
@@ -24,14 +24,32 @@
         <section class="content">
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Create user</h3>
+                    <h3 class="box-title">Password change</h3>
                 </div>
                 <div class="box-body">
-                    <form:form method="POST" modelAttribute="userForm" class="form-signin">
+                    <form:form method="POST" modelAttribute="passwordForm" class="form-signin">
+                        <spring:bind path="password">
+                            <div class="form-group ${status.error ? 'has-error' : ''}">
+                                <form:input type="password" path="password" class="form-control"
+                                            placeholder="Password"></form:input>
+                                <form:errors path="password"></form:errors>
+                            </div>
+                        </spring:bind>
+
+                        <spring:bind path="passwordConfirm">
+                            <div class="form-group ${status.error ? 'has-error' : ''}">
+                                    <%--<label for="passwordConfirm">Confirm password</label>--%>
+                                <form:input type="password" path="passwordConfirm" class="form-control"
+                                            placeholder="Confirm your password"></form:input>
+                                <form:errors path="passwordConfirm"></form:errors>
+                            </div>
+                        </spring:bind>
+                        <form:input type="hidden" path="id" class="form-control"
+                                    placeholder="ID"
+                                    autofocus="true"></form:input>
                     <spring:bind path="username">
                         <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <label for="username">Username</label>
-                            <form:input type="text" path="username" class="form-control"
+                            <form:input type="hidden" path="username" class="form-control"
                                         placeholder="Username"
                                         autofocus="true"></form:input>
                             <form:errors path="username"></form:errors>
@@ -40,8 +58,7 @@
 
                     <spring:bind path="firstName">
                         <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <label for="firstName">First name</label>
-                            <form:input type="text" path="firstName" class="form-control"
+                            <form:input type="hidden" path="firstName" class="form-control"
                                         placeholder="First name"
                                         autofocus="true"></form:input>
                             <form:errors path="firstName"></form:errors>
@@ -50,55 +67,27 @@
 
                     <spring:bind path="lastName">
                         <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <label for="lastName">Last name</label>
-                            <form:input type="text" path="lastName" class="form-control"
+                            <form:input type="hidden" path="lastName" class="form-control"
                                         placeholder="Last name"
                                         autofocus="true"></form:input>
                             <form:errors path="lastName"></form:errors>
                         </div>
                     </spring:bind>
-                    <spring:bind path="displayName">
-                        <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <label for="displayName">Display Name</label>
-                            <form:input type="text" path="displayName" class="form-control"
-                                        placeholder="Display Name"
-                                        autofocus="true"></form:input>
-                            <form:errors path="displayName"></form:errors>
-                        </div>
-                    </spring:bind>
+
                     <spring:bind path="roles">
-                        <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <label for="roles">Add roles</label>
+                        <div class="form-group  ${status.error ? 'has-error' : ''}" style="visibility: hidden;">
                             <form:select class="form-control" path="roles" items="${roles}" itemValue="id"
                                          itemLabel="name">
                             </form:select>
                             <form:errors path="roles"></form:errors>
                         </div>
                     </spring:bind>
-                    <label for="groups">Add groups</label>
                     <spring:bind path="groups">
-                        <div class="form-group ${status.error ? 'has-error' : ''}">
+                        <div class="form-group ${status.error ? 'has-error' : ''}" style="visibility: hidden">
                             <form:select class="form-control" path="groups" items="${groups}" itemValue="id"
                                          itemLabel="name">
                             </form:select>
                             <form:errors path="groups"></form:errors>
-                        </div>
-                    </spring:bind>
-                    <label for="password">Password</label>
-                    <spring:bind path="password">
-                        <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <form:input type="password" path="password" class="form-control"
-                                        placeholder="Password"></form:input>
-                            <form:errors path="password"></form:errors>
-                        </div>
-                    </spring:bind>
-
-                    <spring:bind path="passwordConfirm">
-                        <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <label for="passwordConfirm">Confirm password</label>
-                            <form:input type="password" path="passwordConfirm" class="form-control"
-                                        placeholder="Confirm your password"></form:input>
-                            <form:errors path="passwordConfirm"></form:errors>
                         </div>
                     </spring:bind>
                 </div>

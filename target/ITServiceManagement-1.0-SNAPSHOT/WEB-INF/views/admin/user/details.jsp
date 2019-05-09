@@ -30,8 +30,19 @@
                     <p>Username: <b>${user.username}</b></p>
                     <p>First name: <b>${user.firstName}</b></p>
                     <p>Last name: <b>${user.lastName}</b></p>
-                    <p>Roles: <b>${user.roles}</b></p>
-                    <p>Groups: <b>${user.groups}</b></p>
+                    <p>Display name: <b>${user.displayName}</b></p>
+                    <c:if test="${empty user.roles}">
+                        <p>Roles: <b>User has no roles</b></p>
+                    </c:if>
+                    <c:if test="${not empty user.roles}">
+                        <p>Roles: <b>${user.roles}</b></p>
+                    </c:if>
+                    <c:if test="${empty user.groups}">
+                        <p>Groups: <b>User is not a member of any group</b></p>
+                    </c:if>
+                    <c:if test="${not empty user.groups}">
+                        <p>Groups: <b>${user.groups}</b></p>
+                    </c:if>
                 </div>
             </div>
             <a href="/admin/homepage" class="btn  btn-danger">Back</a>

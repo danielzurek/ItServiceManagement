@@ -17,6 +17,7 @@ import pl.danielzurek.repository.UserRepository;
 import pl.danielzurek.service.UserService;
 import pl.danielzurek.validator.UserValidator;
 
+import java.security.Principal;
 import java.util.List;
 
 @Controller
@@ -86,6 +87,35 @@ public class AdminUserController {
     public String Details(@RequestParam(name = "id") Long id, Model model) {
         model.addAttribute("user", this.userRepository.findOne(id));
         return "admin/user/details";
+    }
+
+    @RequestMapping(value = "/profile", method = RequestMethod.GET)
+    public String Details(Principal principal, Model model) {
+        String username = principal.getName();
+        model.addAttribute("username", username);
+        model.addAttribute("userDetails", this.userRepository.findByUsername(username));
+        return "/admin/user/profile";
+    }
+
+    @RequestMapping(value = "/password/change", method = RequestMethod.GET)
+    public String passwordChange(Principal principal, Model model) {
+        String username = principal.getName();
+        model.addAttribute("passwordForm", this.userRepository.findByUsername(username));
+        return "/admin/user/passwordChange";
+    }
+
+
+    @RequestMapping(value = "/password/change", method = RequestMethod.POST)
+    public String saveNewPassword(@ModelAttribute("userFormEdit") User passwordForm, BindingResult bindingResult, Model model) {
+        userValidator.validateEdited(passwordForm, bindingResult);
+
+        if (bindingResult.hasErrors()) {
+            return "admin/user/passwordChange";
+        }
+        userService.passwordChange(passwordForm);
+
+
+        return "redirect:/admin/homepage";
     }
 
     @ModelAttribute("roles")

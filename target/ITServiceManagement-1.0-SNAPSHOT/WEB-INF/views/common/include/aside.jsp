@@ -43,7 +43,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="#">My account</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a onclick="document.forms['logoutForm'].submit()">Sign out</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -53,7 +53,7 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="#">Create new</a></li>
+                    <li><a href="/incident/create">Create new</a></li>
                     <li><a href="#">Assigned to me</a></li>
                     <li><a href="#">Open</a></li>
                     <li><a href="#">Resolved</a></li>

@@ -18,6 +18,8 @@ public class Customer {
     @NotEmpty
     private String lastName;
     @NotEmpty
+    private String displayName;
+    @NotEmpty
     private String location;
     @NotNull
     private Integer phoneNumber;
@@ -28,17 +30,21 @@ public class Customer {
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "company_id"))
     private Company company;
+    @OneToMany
+    private List<Incident> incidents;
 
     public Customer() {
     }
 
-    public Customer(String firstName, String lastName, String location, Integer phoneNumber, String emailAddress, Company company) {
+    public Customer(String firstName, String lastName, String displayName, String location, Integer phoneNumber, String emailAddress, Company company, List<Incident> incidents) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.displayName = displayName;
         this.location = location;
         this.phoneNumber = phoneNumber;
         this.emailAddress = emailAddress;
         this.company = company;
+        this.incidents = incidents;
     }
 
     public Long getId() {
@@ -63,6 +69,14 @@ public class Customer {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
     }
 
     public String getLocation() {
@@ -96,4 +110,16 @@ public class Customer {
     public void setCompany(Company company) {
         this.company = company;
     }
+
+    public List<Incident> getIncidents() {
+        return incidents;
+    }
+
+    public void setIncidents(List<Incident> incidents) {
+        this.incidents = incidents;
+    }
+
+
+
+
 }

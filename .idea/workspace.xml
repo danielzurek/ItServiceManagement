@@ -7,153 +7,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d2cff04-74ca-432f-a6c8-8d66c7ade5f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/company/AdminCompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/customer/AdminCustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/group/AdminGroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/role/AdminRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CompanyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/GroupConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CompanyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/GroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/validator/GroupValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/validator/RoleValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CustomerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/IncidentConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Incident.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/passwordChange.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/headerUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/MyAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/MyAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/RoleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/RoleConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/UserConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/UserConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/validator/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/validator/UserValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/createUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/loginOld.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/template.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/control-sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/control-sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/general.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/modals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/sliders.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/sliders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/UI/timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/chartjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/flot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/flot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/inline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/charts/morris.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/blank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/invoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/pace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/pace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/examples/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/forms/advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/forms/advanced.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/forms/editors.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/forms/editors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/forms/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/forms/general.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/boxed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/boxed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/collapsed-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/collapsed-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout/fixed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/mailbox/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/mailbox/compose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/mailbox/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/mailbox/mailbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/mailbox/read-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/mailbox/read-mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/tables/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/tables/data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/tables/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/tables/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/widgets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/UI/buttons.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/UI/buttons.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/calendar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/calendar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/examples/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/examples/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/examples/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/examples/500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/forms/advanced.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/forms/advanced.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/forms/general.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/forms/general.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/mailbox/mailbox.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/mailbox/mailbox.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/mailbox/read-mail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/mailbox/read-mail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/build/bootstrap-less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/build/bootstrap-less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/build/less/forms.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/build/less/forms.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/dist/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/dist/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/dist/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/dist/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/plugins/fullcalendar/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/starter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/createUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/customer/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/homepage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/template.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/control-sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/control-sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/asideAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/asideAdmin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/general.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/modals.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/modals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/sliders.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/sliders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/UI/timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/chartjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/chartjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/flot.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/flot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/inline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/charts/morris.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/blank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/invoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/pace.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/pace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/examples/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/forms/advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/forms/advanced.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/forms/editors.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/forms/editors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/forms/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/forms/general.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/boxed.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/boxed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/collapsed-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/collapsed-sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/layout/fixed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/mailbox/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/mailbox/compose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/mailbox/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/mailbox/mailbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/mailbox/read-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/mailbox/read-mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/tables/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/tables/data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/tables/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/tables/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/widgets.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/template/widgets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/UI/buttons.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/UI/buttons.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/calendar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/calendar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/examples/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/examples/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/examples/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/examples/500.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/forms/advanced.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/forms/advanced.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/forms/general.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/forms/general.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/mailbox/mailbox.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/mailbox/mailbox.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/mailbox/read-mail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/pages/mailbox/read-mail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/build/bootstrap-less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/build/bootstrap-less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/build/less/forms.less" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/build/less/forms.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/dist/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/dist/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/dist/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/dist/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/plugins/fullcalendar/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/starter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/starter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -166,37 +69,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Oldlogin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,28 +81,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-              <folding>
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="309">
+              <caret line="69" column="114" selection-start-line="69" selection-start-column="114" selection-end-line="69" selection-end-column="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/create.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="107" column="65" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/yarn.lock">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="76" column="71" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/template.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="64" selection-end-column="7" />
+            <state relative-caret-position="364">
+              <caret line="93" column="46" lean-forward="true" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,8 +125,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -256,67 +144,87 @@
       <find>form</find>
       <find>.form</find>
       <find>fonts</find>
+      <find>stateSel</find>
+      <find>emai</find>
+      <find>category</find>
+      <find>cre</find>
+      <find>created</find>
+      <find>status</find>
+      <find>sele</find>
+      <find>toString</find>
+      <find>selected</find>
+      <find>description</find>
     </findStrings>
+    <replaceStrings>
+      <replace>category</replace>
+      <replace>subCategory</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/add.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminCompanyController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/manageRoles.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepag2.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/template.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/createUser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/dist/css/AdminLTE.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/RoleConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/UserConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/RoleRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/group/AdminGroupController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/role/AdminRoleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/company/AdminCompanyController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/details.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/create.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/details.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/edit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/create.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/details.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CustomerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/create.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/create.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/customer/AdminCustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CompanyConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/details.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/MyAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/appconfig-security.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/headerUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/passwordChange.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/create.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/customer/AdminCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/IncidentConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CustomerConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/validator/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Incident.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/create.jsp" />
       </list>
     </option>
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -416,7 +324,7 @@
               <item name="danielzurek" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
@@ -426,8 +334,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="danielzurek" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
+              <item name="incident" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
@@ -437,19 +344,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="danielzurek" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="group" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="danielzurek" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="role" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
@@ -477,6 +372,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="danielzurek" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="danielzurek" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="danielzurek" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
@@ -527,6 +440,51 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="incident" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -538,21 +496,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557054238502" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/warsztat6krkw01-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557427967770" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CarRepairShop-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user" />
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -667,12 +625,16 @@
       <workItem from="1556551670494" duration="13175000" />
       <workItem from="1556635385107" duration="5228000" />
       <workItem from="1556967812201" duration="16249000" />
-      <workItem from="1557001491753" duration="9237000" />
+      <workItem from="1557001491753" duration="34847000" />
+      <workItem from="1557157706405" duration="17541000" />
+      <workItem from="1557239085482" duration="18343000" />
+      <workItem from="1557324086042" duration="21028000" />
+      <workItem from="1557409456042" duration="16868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160660000" />
+    <option name="totallyTimeSpent" value="260050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,44 +647,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2091865" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" weight="0.44816414" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5863931" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" weight="0.32937366" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297414" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32982844" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2091865" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21804096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -746,8 +673,46 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32982844" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21582733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.44816414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5863931" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" weight="0.32937366" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -761,390 +726,308 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/edit.jsp</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/GroupConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/UserConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/group/AdminGroupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/role/AdminRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="76" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/role/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="145" column="52" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CompanyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="25" column="17" lean-forward="true" selection-end-line="64" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/create.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="83" column="56" selection-start-line="83" selection-start-column="56" selection-end-line="83" selection-end-column="56" />
+        <state relative-caret-position="630">
+          <caret line="93" column="24" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="93" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar!/org/springframework/validation/BindingResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+        <state relative-caret-position="-945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/role/AdminRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/company/manage.jsp">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" lean-forward="true" selection-end-line="75" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="-376">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/company/AdminCompanyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="244">
+          <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/service/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar!/org/springframework/validation/beanvalidation/LocalValidatorFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/plugins/jQueryUI/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3340" column="10" selection-start-line="3340" selection-start-column="10" selection-end-line="3340" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/service/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1740#1741#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2058#2059#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2172#2173#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2245#2246#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2376#2377#0" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
-            <element signature="e#2470#2471#0" expanded="true" />
-            <element signature="e#2502#2503#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-            <element signature="e#2572#2573#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2649#2650#0" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/RoleConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CompanyConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/app/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#2981#2982#0" expanded="true" />
-            <element signature="e#3024#3025#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/customer/AdminCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2825#2826#0" expanded="true" />
-            <element signature="e#2880#2881#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="159">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        <state relative-caret-position="60">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/GroupConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CompanyConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="66" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/UserConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/RoleConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/details.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="-75">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        <state>
+          <folding>
+            <element signature="e#0#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar!/org/springframework/validation/Errors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/validator/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        <state relative-caret-position="-201">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Customer.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="143">
+          <caret line="265" column="68" selection-start-line="265" selection-start-column="60" selection-end-line="265" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/app/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+          <folding>
+            <element signature="e#3330#3331#0" expanded="true" />
+            <element signature="e#3376#3377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CustomerConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/create.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="85" selection-end-column="70" />
+        <state relative-caret-position="315">
+          <caret line="63" column="66" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/IncidentConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/loginOld.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="51" column="22" lean-forward="true" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/meta.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+        <state relative-caret-position="339">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2295#2296#0" expanded="true" />
-            <element signature="e#2332#2333#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="-486">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1153,60 +1036,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-111">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        <state relative-caret-position="85">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Oldlogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="285">
+          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="324">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
           <folding>
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/template.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="64" selection-end-column="7" />
+        <state relative-caret-position="229">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Incident.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4780#4781#0" expanded="true" />
+            <element signature="e#4812#4813#0" expanded="true" />
+            <element signature="e#4862#4863#0" expanded="true" />
+            <element signature="e#4904#4905#0" expanded="true" />
+            <element signature="e#5126#5127#0" expanded="true" />
+            <element signature="e#5159#5160#0" expanded="true" />
+            <element signature="e#5211#5212#0" expanded="true" />
+            <element signature="e#5255#5256#0" expanded="true" />
+            <element signature="e#5408#5409#0" expanded="true" />
+            <element signature="e#5438#5439#0" expanded="true" />
+            <element signature="e#5484#5485#0" expanded="true" />
+            <element signature="e#5522#5523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="93" column="46" lean-forward="true" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="76" column="71" selection-start-line="76" selection-start-column="71" selection-end-line="76" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="69" column="114" selection-start-line="69" selection-start-column="114" selection-end-line="69" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="107" column="65" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
         </state>
       </provider>
     </entry>

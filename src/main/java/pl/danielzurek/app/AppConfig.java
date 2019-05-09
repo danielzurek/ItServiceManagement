@@ -14,10 +14,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-import pl.danielzurek.converter.CompanyConverter;
-import pl.danielzurek.converter.GroupConverter;
-import pl.danielzurek.converter.RoleConverter;
-import pl.danielzurek.converter.UserConverter;
+import pl.danielzurek.converter.*;
+import pl.danielzurek.entity.Incident;
+import pl.danielzurek.service.CustomerService;
+import pl.danielzurek.service.CustomerServiceImpl;
 
 import javax.persistence.EntityManagerFactory;
 
@@ -50,6 +50,8 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         registry.addConverter(RoleConverter());
         registry.addConverter(GroupConverter());
         registry.addConverter(CompanyConverter());
+        registry.addConverter(IncidentConverter());
+        registry.addConverter(CustomerConverter());
 
     }
 
@@ -85,7 +87,20 @@ public class AppConfig extends WebMvcConfigurerAdapter {
     public CompanyConverter CompanyConverter() {
         return new CompanyConverter();
     }
+    @Bean
+    public CustomerConverter CustomerConverter() {
+        return new CustomerConverter();
+    }
 
+    @Bean
+    public IncidentConverter IncidentConverter() {
+        return new IncidentConverter();
+    }
+
+    @Bean
+    public CustomerService customerService() {
+        return new CustomerServiceImpl();
+    }
 
     @Bean
     public Validator validator() {
