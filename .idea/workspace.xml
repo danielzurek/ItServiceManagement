@@ -7,46 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d2cff04-74ca-432f-a6c8-8d66c7ade5f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/validation.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/criticalsHistory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/open.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/myWork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/dist/img/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/classes/validation.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/incident/criticalsHistory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/incident/open.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/myWork.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/resources/dist/img/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/validation.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Incident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Incident.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/appconfig-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/appconfig-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/headerUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/headerUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/classes/META-INF/appconfig-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/classes/META-INF/appconfig-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/asideAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/asideAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/headerUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/common/include/headerUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/incident/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/incident/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/incident/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/incident/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/user/welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/appconfig-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/appconfig-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ITServiceManagement-1.0-SNAPSHOT/WEB-INF/views/admin/user/profile.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,89 +24,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="56" />
+            <state relative-caret-position="414">
+              <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/open.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" column="74" selection-end-line="85" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/solved.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
               <folding>
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/appconfig-security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#575#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -182,6 +101,7 @@
       <find>selected</find>
       <find>description</find>
       <find>box-solid</find>
+      <find>profile</find>
     </findStrings>
     <replaceStrings>
       <replace>category</replace>
@@ -203,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/MyAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/profile.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/passwordChange.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/customer/edit.jsp" />
@@ -228,15 +147,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/notSolved.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/solved.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/create.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/myWork.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Incident.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/criticals.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/myWork.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/open.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" />
@@ -248,6 +164,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/appconfig-security.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/solved.jsp" />
       </list>
     </option>
   </component>
@@ -474,6 +394,17 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -531,7 +462,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557517298330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557522843348" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CarRepairShop-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -665,12 +596,12 @@
       <workItem from="1557239085482" duration="18343000" />
       <workItem from="1557324086042" duration="21028000" />
       <workItem from="1557409456042" duration="24376000" />
-      <workItem from="1557496493397" duration="16147000" />
+      <workItem from="1557496493397" duration="17916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283705000" />
+    <option name="totallyTimeSpent" value="285474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,7 +615,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22080797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22080797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -694,14 +625,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" weight="0.44816414" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.44816414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5863931" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" weight="0.32937366" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297414" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
@@ -766,34 +697,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="265" column="68" selection-start-line="265" selection-start-column="60" selection-end-line="265" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/app/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
-          <folding>
-            <element signature="e#3330#3331#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/converter/CustomerConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/create.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -867,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/solved.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="247" column="19" lean-forward="true" selection-start-line="247" selection-start-column="19" selection-end-line="247" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/manage.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -917,26 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/myWork.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -948,13 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="264" column="34" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/open.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1024,30 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1064,13 +909,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="153">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,14 +937,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/validation.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="294">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/group/details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="51" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/IncidentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
           <folding>
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/incident/IncidentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/open.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="74" selection-end-line="85" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/solved.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>

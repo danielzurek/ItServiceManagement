@@ -20,4 +20,7 @@ public interface IncidentRepository extends JpaRepository<Incident, Long> {
     @Query(value = "SELECT * FROM incidents WHERE resolution is null ", nativeQuery = true)
     List<Incident> openIncidents();
 
+    @Query(value = "SELECT * FROM incidents WHERE resolution is not null ", nativeQuery = true)
+    List<Incident> SolvedIncidents();
+
 }

@@ -102,4 +102,12 @@ public class IncidentController {
         return "/incident/open";
     }
 
+    @RequestMapping(value = {"/solved"}, method = RequestMethod.GET)
+    public String solved(Model model) {
+        model.addAttribute("incidents", this.incidentRepository.SolvedIncidents());
+
+
+        return "/incident/solved";
+    }
+
 }

@@ -56,7 +56,7 @@
                     <li><a href="/incident/create">Create new</a></li>
                     <li><a href="/user/myWork">Assigned to me</a></li>
                     <li><a href="/incident/open">Open</a></li>
-                    <li><a href="#">Resolved</a></li>
+                    <li><a href="/incident/solved">Resolved</a></li>
                     <li><a href="/incident/criticalsHistory">Critical incidents</a></li>
                 </ul>
             </li>

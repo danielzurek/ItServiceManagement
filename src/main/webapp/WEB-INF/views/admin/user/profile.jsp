@@ -41,12 +41,20 @@
                             <p>Username: <b>${pageContext.request.userPrincipal.name}</b></p>
                             <p>First Name: <b>${userDetails.firstName}</b></p>
                             <p>Last Name: <b>${userDetails.lastName}</b></p>
-                            <p>Roles: <b>${userDetails.roles}</b></p>
+                            <p>Roles:
+                                <c:forEach items="${userDetails.roles}" var="role">
+                                <b>${role.name}</b>
+                                </c:forEach>
+                            </p>
                             <c:if test="${empty userDetails.groups}">
                                 <p>Groups: <b>User is not a member of any group</b></p>
                             </c:if>
                             <c:if test="${not empty userDetails.groups}">
-                                <p>Groups: <b>${userDetails.groups}</b></p>
+                                <p>Groups:
+                                    <c:forEach items="${userDetails.groups}" var="group">
+                                        <b>${group.name}</b>
+                                    </c:forEach>
+                                </p>
                             </c:if>
                         </div>
                     </div>
