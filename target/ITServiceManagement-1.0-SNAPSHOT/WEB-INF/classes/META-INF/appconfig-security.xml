@@ -16,7 +16,7 @@
     <!--</http>-->
 
     <http auto-config="true">
-        <intercept-url pattern="/admin*" access="hasRole('ROLE_ADMIN')" />
+        <intercept-url pattern="/admin/*" access="hasRole('ROLE_ADMIN')" />
         <intercept-url pattern="/*" access="hasRole('ROLE_USER')" />
         <form-login login-page= "/user/login"
                     authentication-failure-url="/user/login?error" username-parameter="username" password-parameter="password"

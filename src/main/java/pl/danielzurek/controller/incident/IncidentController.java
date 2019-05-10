@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import pl.danielzurek.entity.Incident;
+import pl.danielzurek.entity.User;
 import pl.danielzurek.repository.CustomerRepository;
 import pl.danielzurek.repository.GroupRepository;
 import pl.danielzurek.repository.IncidentRepository;
@@ -13,6 +14,7 @@ import pl.danielzurek.repository.UserRepository;
 import pl.danielzurek.service.CustomerService;
 
 import javax.validation.Valid;
+import java.security.Principal;
 import java.time.LocalDateTime;
 
 @Controller
@@ -42,17 +44,20 @@ public class IncidentController {
     }
 
     @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String save(@ModelAttribute(name = "incidentForm") @Valid Incident incidentForm, BindingResult bindingResult, Model model) {
+    public String save(@ModelAttribute(name = "incidentForm") @Valid Incident incidentForm, BindingResult bindingResult, Model model, Principal principal) {
 
         if (bindingResult.hasErrors()) {
             return "incident/create";
         }
         LocalDateTime now = LocalDateTime.now();
         incidentForm.setCreatedAt(now);
+        String username = principal.getName();
+        Long userId = this.userRepository.findByUsername(username).getId();
+        User user = new User();
+        user.setId(userId);
+        incidentForm.setResolver(user);
         incidentRepository.save(incidentForm);
         Long id = incidentForm.getId();
-
-
 
 
         return "redirect:/incident/edit?id=" + id;
@@ -80,9 +85,21 @@ public class IncidentController {
         return "redirect:/incident/edit?id=" + id;
     }
 
-//    @RequestMapping(value = "/search", method = RequestMethod.GET)
-//    @ResponseBody
-//    public List<String> search(HttpServletRequest request) {
-//        return customerService.search(request.getParameter("term"));
-//    }
+    @RequestMapping(value = {"/criticalsHistory"}, method = RequestMethod.GET)
+    public String criticals(Model model) {
+        String priority = "Priority 1";
+        model.addAttribute("criticals", this.incidentRepository.criticalsHistory(priority));
+
+
+        return "/incident/criticalsHistory";
+    }
+
+    @RequestMapping(value = {"/open"}, method = RequestMethod.GET)
+    public String open(Model model) {
+        model.addAttribute("incidents", this.incidentRepository.openIncidents());
+
+
+        return "/incident/open";
+    }
+
 }

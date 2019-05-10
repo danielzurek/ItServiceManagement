@@ -47,8 +47,4 @@ public class Role {
         this.usersRoles = usersRoles;
     }
 
-    @Override
-    public String toString() {
-        return name;
-    }
 }

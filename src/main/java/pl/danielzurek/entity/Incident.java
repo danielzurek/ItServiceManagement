@@ -4,9 +4,7 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Entity
 @Table(name = "incidents")
@@ -14,20 +12,8 @@ public class Incident {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-//    @NotEmpty
-//    private String requestedBy;
-    @NotEmpty
-    private String company;
-    @NotEmpty
-    private String location;
-    @Email
-    private String email;
-    @NotNull
-    private Integer contactNumber;
     private String category;
     private String subCategory;
-    //  @NotEmpty
-//    private String affectedServices;
     @Column
     private java.time.LocalDateTime createdAt;
     @NotEmpty
@@ -51,7 +37,7 @@ public class Incident {
     private Group assigmentGroup;
     @ManyToOne
     @JoinColumn(name = "resolver")
-    private User resolver ;
+    private User resolver;
     @Column(columnDefinition = "longtext")
     private String resolution;
     @Column(columnDefinition = "longtext")
@@ -60,11 +46,7 @@ public class Incident {
     public Incident() {
     }
 
-    public Incident(String company, String location, String email, Integer contactNumber, String category, String subCategory, LocalDateTime createdAt, String source, String status, String priority, String summary, String description, String workNotes, Customer requestor, Group assigmentGroup, User resolver, String resolution, String details) {
-        this.company = company;
-        this.location = location;
-        this.email = email;
-        this.contactNumber = contactNumber;
+    public Incident(String category, String subCategory, LocalDateTime createdAt, String source, String status, String priority, String summary, String description, String workNotes, Customer requestor, Group assigmentGroup, User resolver, String resolution, String details) {
         this.category = category;
         this.subCategory = subCategory;
         this.createdAt = createdAt;
@@ -87,38 +69,6 @@ public class Incident {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getCompany() {
-        return company;
-    }
-
-    public void setCompany(String company) {
-        this.company = company;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public Integer getContactNumber() {
-        return contactNumber;
-    }
-
-    public void setContactNumber(Integer contactNumber) {
-        this.contactNumber = contactNumber;
     }
 
     public String getCategory() {
@@ -185,6 +135,14 @@ public class Incident {
         this.description = description;
     }
 
+    public String getWorkNotes() {
+        return workNotes;
+    }
+
+    public void setWorkNotes(String workNotes) {
+        this.workNotes = workNotes;
+    }
+
     public Customer getRequestor() {
         return requestor;
     }
@@ -207,14 +165,6 @@ public class Incident {
 
     public void setResolver(User resolver) {
         this.resolver = resolver;
-    }
-
-    public String getWorkNotes() {
-        return workNotes;
-    }
-
-    public void setWorkNotes(String workNotes) {
-        this.workNotes = workNotes;
     }
 
     public String getResolution() {

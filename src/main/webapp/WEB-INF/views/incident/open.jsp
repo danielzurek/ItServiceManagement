@@ -24,47 +24,11 @@
                 <div class="col-md-12">
                     <div class="box">
                         <div class="box-header with-border">
-                            <h3 class="box-title">Critical Incidents</h3>
-                            <h3 class="box-title pull-right">My Work</h3>
+                            <h3 class="box-title pull-left">Open incidents</h3>
                         </div>
                         <div class="box-body">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <table id="example" class="table table-bordered table-hover">
-                                        <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Summary</th>
-                                            <th>Assigment Group</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <c:if test="${empty criticals}">
-                                            <tbody>
-                                            <tr>
-                                                <td>No records to display</td>
-                                            </tr>
-                                            </tbody>
-                                        </c:if>
-                                        <c:if test="${not empty criticals}">
-                                            <c:forEach items="${criticals}" var="incident">
-                                                <tbody>
-                                                <tr>
-                                                    <td>${incident.id}</td>
-                                                    <td>
-                                                        <a href="/incident/edit?id=${incident.id}">${incident.summary}</a>
-                                                    </td>
-                                                    <td>${incident.assigmentGroup}</td>
-                                                    <td>${incident.status}</td>
-                                                </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                </tfoot>
-                                            </c:forEach>
-                                        </c:if>
-                                    </table>
-                                </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <table id="example2" class="table table-bordered table-hover">
                                         <thead>
                                         <tr>

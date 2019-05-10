@@ -35,13 +35,22 @@
                         <p>Roles: <b>User has no roles</b></p>
                     </c:if>
                     <c:if test="${not empty user.roles}">
-                        <p>Roles: <b>${user.roles}</b></p>
+                        <p>Roles:
+                            <c:forEach items="${user.roles}" var="role">
+                            <b>${role.name}</b>
+                            </c:forEach>
+                        </p>
                     </c:if>
                     <c:if test="${empty user.groups}">
                         <p>Groups: <b>User is not a member of any group</b></p>
                     </c:if>
                     <c:if test="${not empty user.groups}">
-                        <p>Groups: <b>${user.groups}</b></p>
+                        <p>Groups:
+                        <%--<p>Groups: <b>${user.groups}</b></p>--%>
+                        <c:forEach items="${user.groups}" var="group">
+                            <b>${group.name}</b>
+                        </c:forEach>
+                        </p>
                     </c:if>
                 </div>
             </div>

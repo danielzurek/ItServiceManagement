@@ -74,15 +74,28 @@ public class UserController {
     @RequestMapping(value = {"/home"}, method = RequestMethod.GET)
     public String home(Principal principal, Model model) {
         String username = principal.getName();
+        String priority = "Priority 1";
         Long id = this.userRepository.findByUsername(username).getId();
         model.addAttribute("incidents", this.incidentRepository.allUnresolved(id));
+        model.addAttribute("criticals", this.incidentRepository.criticals(priority));
 
 
         return "/user/home";
     }
 
+    @RequestMapping(value = {"/myWork"}, method = RequestMethod.GET)
+    public String myWork(Principal principal, Model model) {
+        String username = principal.getName();
+        Long id = this.userRepository.findByUsername(username).getId();
+        model.addAttribute("incidents", this.incidentRepository.allUnresolved(id));
+
+
+        return "/user/myWork";
+    }
+
+
     @ModelAttribute("roles")
-    public List<Role> findRoles (Model model){
+    public List<Role> findRoles(Model model) {
         return this.roleRepository.findAll();
     }
 }
