@@ -26,7 +26,7 @@ import javax.persistence.EntityManagerFactory;
 @ComponentScan(basePackages = {"pl.danielzurek"})
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "pl.danielzurek.repository")
-@ImportResource("classpath:META-INF/appconfig-security.xml")
+@ImportResource({"classpath:META-INF/appconfig-security.xml",  "classpath:META-INF/appconfig-mvc.xml"})
 
 public class AppConfig extends WebMvcConfigurerAdapter {
     @Bean

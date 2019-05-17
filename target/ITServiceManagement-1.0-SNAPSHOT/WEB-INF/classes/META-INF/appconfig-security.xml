@@ -8,20 +8,21 @@
 		http://www.springframework.org/schema/security/spring-security.xsd">
 
     <!--<http auto-config="true">-->
-        <!--<intercept-url pattern="/" access="hasRole('ROLE_USER')"/>-->
-        <!--<intercept-url pattern="/admin" access="hasRole('ROLE_ADMIN')"/>-->
-        <!--&lt;!&ndash;<intercept-url pattern="/welcome" access="hasRole('ROLE_USER')"/>&ndash;&gt;-->
-        <!--<form-login login-page="/user/login" default-target-url="/welcome" authentication-failure-url="/login?error" username-parameter="username" password-parameter="password"/>-->
-        <!--<logout logout-success-url="/login?logout" />-->
+    <!--<intercept-url pattern="/" access="hasRole('ROLE_USER')"/>-->
+    <!--<intercept-url pattern="/admin" access="hasRole('ROLE_ADMIN')"/>-->
+    <!--&lt;!&ndash;<intercept-url pattern="/welcome" access="hasRole('ROLE_USER')"/>&ndash;&gt;-->
+    <!--<form-login login-page="/user/login" default-target-url="/welcome" authentication-failure-url="/login?error" username-parameter="username" password-parameter="password"/>-->
+    <!--<logout logout-success-url="/login?logout" />-->
     <!--</http>-->
 
     <http auto-config="true">
-        <intercept-url pattern="/admin/*" access="hasRole('ROLE_ADMIN')" />
-        <intercept-url pattern="/*" access="hasRole('ROLE_USER')" />
-        <form-login login-page= "/user/login"
-                    authentication-failure-url="/user/login?error" username-parameter="username" password-parameter="password"
+        <intercept-url pattern="/admin/*" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/*" access="hasRole('ROLE_USER')"/>
+        <form-login login-page="/user/login"
+                    authentication-failure-url="/user/login?error" username-parameter="username"
+                    password-parameter="password"
                     authentication-success-handler-ref="myAuthenticationSuccessHandler"/>
-        <logout logout-url="/logout" logout-success-url="/" />
+        <logout logout-url="/logout" logout-success-url="/"/>
     </http>
 
     <authentication-manager alias="authenticationManager">
@@ -33,7 +34,7 @@
     <beans:bean id="userDetailsServiceImpl" class="pl.danielzurek.service.UserDetailsServiceImpl"></beans:bean>
 
     <beans:bean id="encoder"
-          class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder">
+                class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder">
         <beans:constructor-arg name="strength" value="11"/>
     </beans:bean>
     <beans:bean id="myAuthenticationSuccessHandler" class="pl.danielzurek.app.MyAuthenticationSuccessHandler"/>
