@@ -26,8 +26,8 @@ public class Customer {
     @Email
     private String emailAddress;
     @OneToOne(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
-    @JoinTable(name = "users_companies",
-            joinColumns = @JoinColumn(name = "user_id"),
+    @JoinTable(name = "customers_companies",
+            joinColumns = @JoinColumn(name = "customer_id"),
             inverseJoinColumns = @JoinColumn(name = "company_id"))
     private Company company;
     @OneToMany

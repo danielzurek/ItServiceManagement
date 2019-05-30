@@ -113,9 +113,9 @@
                                         <label for="status">Incident Status</label>
                                         <form:select name="status" type="text" path="status" class="form-control"
                                                      autofocus="true">
-                                            <form:option value="assigned">Assigned</form:option>
-                                            <form:option value="workInProgress">Work in progress</form:option>
-                                            <form:option value="resolved">Resolved</form:option>
+                                            <form:option value="Assigned">Assigned</form:option>
+                                            <form:option value="Work in progress">Work in progress</form:option>
+                                            <form:option value="Resolved">Resolved</form:option>
                                         </form:select>
                                         <form:errors path="status"></form:errors>
                                     </div>
@@ -260,7 +260,7 @@
         $(function () {
             $('#resolutionNotes').hide();
             $('#status').change(function () {
-                if ($('#status').val() == 'resolved') {
+                if ($('#status').val() == 'Resolved') {
                     $('#resolutionNotes').show();
                     $('#resolution').attr('disabled', false);
                     $('#workNotes').hide();
@@ -271,15 +271,6 @@
             });
         });
     </script>
-    <%--<script>--%>
-        <%--function validateForm() {--%>
-            <%--var x = document.forms["incident"]["resolution"].value;--%>
-            <%--if (x == "") {--%>
-                <%--alert("Resolution must be filled out");--%>
-                <%--return false;--%>
-            <%--}--%>
-        <%--}--%>
-    <%--</script>--%>
 </c:if>
 </body>
 </html>

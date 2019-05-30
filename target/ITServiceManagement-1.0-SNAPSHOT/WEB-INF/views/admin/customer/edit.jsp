@@ -59,7 +59,7 @@
                     </spring:bind>
                     <spring:bind path="location">
                         <div class="form-group ${status.error ? 'has-error' : ''}">
-                            <label for="location"">Location</label>
+                            <label for="location">Location</label>
                             <form:input type="text" path="location" class="form-control"
                                         placeholder="Location"
                                         autofocus="true"></form:input>
@@ -88,8 +88,8 @@
                     </spring:bind>
                     <spring:bind path="company">
                     <div class="form-group ${status.error ? 'has-error' : ''}">
-                        <label for="company">Assign company</label>
-                        <form:select class="form-control" path="company" items="${company}" itemValue="id"
+                        <label for="company.id">Assign company</label>
+                        <form:select class="form-control" path="company.id" items="${company}" itemValue="id"
                                      itemLabel="name">
                         </form:select>
                         <form:errors path="company"></form:errors>

@@ -28,25 +28,25 @@
                 </div>
                 <div class="box-body">
                     <form:form method="POST" modelAttribute="passwordForm" class="form-signin">
-                        <spring:bind path="password">
-                            <div class="form-group ${status.error ? 'has-error' : ''}">
-                                <form:input type="password" path="password" class="form-control"
-                                            placeholder="Password"></form:input>
-                                <form:errors path="password"></form:errors>
-                            </div>
-                        </spring:bind>
+                    <spring:bind path="password">
+                        <div class="form-group ${status.error ? 'has-error' : ''}">
+                            <form:input type="password" path="password" class="form-control"
+                                        placeholder="Password"></form:input>
+                            <form:errors path="password"></form:errors>
+                        </div>
+                    </spring:bind>
 
-                        <spring:bind path="passwordConfirm">
-                            <div class="form-group ${status.error ? 'has-error' : ''}">
-                                    <%--<label for="passwordConfirm">Confirm password</label>--%>
-                                <form:input type="password" path="passwordConfirm" class="form-control"
-                                            placeholder="Confirm your password"></form:input>
-                                <form:errors path="passwordConfirm"></form:errors>
-                            </div>
-                        </spring:bind>
-                        <form:input type="hidden" path="id" class="form-control"
-                                    placeholder="ID"
-                                    autofocus="true"></form:input>
+                    <spring:bind path="passwordConfirm">
+                        <div class="form-group ${status.error ? 'has-error' : ''}">
+                                <%--<label for="passwordConfirm">Confirm password</label>--%>
+                            <form:input type="password" path="passwordConfirm" class="form-control"
+                                        placeholder="Confirm your password"></form:input>
+                            <form:errors path="passwordConfirm"></form:errors>
+                        </div>
+                    </spring:bind>
+                    <form:input type="hidden" path="id" class="form-control"
+                                placeholder="ID"
+                                autofocus="true"></form:input>
                     <spring:bind path="username">
                         <div class="form-group ${status.error ? 'has-error' : ''}">
                             <form:input type="hidden" path="username" class="form-control"
@@ -71,6 +71,16 @@
                                         placeholder="Last name"
                                         autofocus="true"></form:input>
                             <form:errors path="lastName"></form:errors>
+                        </div>
+                    </spring:bind>
+
+
+                    <spring:bind path="displayName">
+                        <div class="form-group ${status.error ? 'has-error' : ''}">
+                            <form:input type="hidden" path="displayName" class="form-control"
+                                        placeholder="Display name"
+                                        autofocus="true"></form:input>
+                            <form:errors path="displayName"></form:errors>
                         </div>
                     </spring:bind>
 

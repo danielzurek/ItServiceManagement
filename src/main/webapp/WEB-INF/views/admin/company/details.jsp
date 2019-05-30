@@ -38,7 +38,7 @@
                 </div>
             </div>
             <a href="/admin/homepage" class="btn  btn-danger">Back</a>
-            <td><a href="/admin/group/edit?id=${company.id}" type="button" class="btn btn-primary active">Edit</a></td>
+            <td><a href="/admin/company/edit?id=${company.id}" type="button" class="btn btn-primary active">Edit</a></td>
         </section>
         <!-- /.content -->
     </div>

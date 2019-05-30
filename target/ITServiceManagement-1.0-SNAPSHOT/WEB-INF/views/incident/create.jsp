@@ -99,9 +99,9 @@
                                         <label for="status">Incident Status</label>
                                         <form:select type="text" path="status" class="form-control"
                                                      autofocus="true">
-                                            <form:option value="assigned" selected="selected">Assigned</form:option>
-                                            <form:option value="workInProgress">Work in progress</form:option>
-                                            <form:option value="resolved">Resolved</form:option>
+                                            <form:option value="Assigned" selected="selected">Assigned</form:option>
+                                            <form:option value="Work in progress">Work in progress</form:option>
+                                            <form:option value="Resolved">Resolved</form:option>
                                         </form:select>
                                         <form:errors path="status"></form:errors>
                                     </div>
