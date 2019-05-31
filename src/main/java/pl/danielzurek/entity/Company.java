@@ -7,6 +7,7 @@ import org.hibernate.validator.constraints.pl.REGON;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
@@ -25,8 +26,9 @@ public class Company {
     private String city;
     @NotEmpty
     private String country;
-    @NotNull
-    private Integer phoneNumber;
+    @NotEmpty
+    @Size(min = 5, max = 15)
+    private String phoneNumber;
     @NIP
     private String nip;
     @REGON
@@ -37,7 +39,7 @@ public class Company {
     public Company() {
     }
 
-    public Company(String name, String street, String postCode, String city, String country, Integer phoneNumber, String nip, String regon, List<Company> companies) {
+    public Company(String name, String street, String postCode, String city, String country, String phoneNumber, String nip, String regon, List<Company> companies) {
         this.name = name;
         this.street = street;
         this.postCode = postCode;
@@ -97,11 +99,11 @@ public class Company {
         this.country = country;
     }
 
-    public Integer getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(Integer phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 

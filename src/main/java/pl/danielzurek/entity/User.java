@@ -99,7 +99,9 @@ public class User {
     }
 
     @ManyToMany(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
-    @JoinTable(name = "users_groups")
+    @JoinTable(name = "users_groups",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "group_id"))
     public Set<Group> getGroups() {
         return groups;
     }

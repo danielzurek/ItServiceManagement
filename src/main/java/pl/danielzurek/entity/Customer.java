@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
@@ -21,8 +22,9 @@ public class Customer {
     private String displayName;
     @NotEmpty
     private String location;
-    @NotNull
-    private Integer phoneNumber;
+    @NotEmpty
+    @Size(min = 5, max = 15)
+    private String phoneNumber;
     @Email
     private String emailAddress;
     @OneToOne(cascade = CascadeType.REMOVE, fetch = FetchType.EAGER)
@@ -36,7 +38,7 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(String firstName, String lastName, String displayName, String location, Integer phoneNumber, String emailAddress, Company company, List<Incident> incidents) {
+    public Customer(String firstName, String lastName, String displayName, String location, String phoneNumber, String emailAddress, Company company, List<Incident> incidents) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.displayName = displayName;
@@ -87,11 +89,11 @@ public class Customer {
         this.location = location;
     }
 
-    public Integer getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(Integer phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -118,8 +120,6 @@ public class Customer {
     public void setIncidents(List<Incident> incidents) {
         this.incidents = incidents;
     }
-
-
 
 
 }

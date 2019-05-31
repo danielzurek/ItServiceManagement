@@ -5,10 +5,11 @@ import java.util.Set;
 
 
 @Entity
-@Table(name = "role")
+@Table(name = "roles")
 public class Role {
     private Long id;
     private String name;
+    @ManyToMany(mappedBy = "groups")
     private Set<User> usersRoles;
 
     public Role() {
@@ -38,13 +39,8 @@ public class Role {
         this.name = name;
     }
 
-    @ManyToMany(mappedBy = "roles")
-    public Set<User> getUsersRoles() {
-        return usersRoles;
+    @Override
+    public String toString() {
+        return name;
     }
-
-    public void setUsersRoles(Set<User> usersRoles) {
-        this.usersRoles = usersRoles;
-    }
-
 }
