@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CodersLab-FinalProject" />
+        <module name="ITServiceManagement" />
       </profile>
     </annotationProcessing>
   </component>
