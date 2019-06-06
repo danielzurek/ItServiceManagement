@@ -39,12 +39,11 @@ public class AdminUserController {
     @RequestMapping(value = "/create", method = RequestMethod.GET)
     public String registration(Model model) {
         model.addAttribute("userForm", new User());
-        model.addAttribute("groups", groupRepository.findAll());
         return "admin/user/create";
     }
 
     @RequestMapping(value = "/create", method = RequestMethod.POST)
-    public String registration(@ModelAttribute("userForm") User userForm, BindingResult bindingResult, Model model) {
+    public String registration(@ModelAttribute("userForm") User userForm, BindingResult bindingResult) {
         userValidator.validate(userForm, bindingResult);
 
         if (bindingResult.hasErrors()) {
@@ -106,8 +105,8 @@ public class AdminUserController {
 
 
     @RequestMapping(value = "/password/change", method = RequestMethod.POST)
-    public String saveNewPassword(@ModelAttribute("userFormEdit") User passwordForm, BindingResult bindingResult, Model model) {
-        userValidator.validateEdited(passwordForm, bindingResult);
+    public String saveNewPassword(@ModelAttribute("passwordForm") User passwordForm, BindingResult bindingResult) {
+        userValidator.validatePassword(passwordForm, bindingResult);
 
         if (bindingResult.hasErrors()) {
             return "admin/user/passwordChange";

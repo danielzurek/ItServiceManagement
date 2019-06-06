@@ -35,6 +35,7 @@ public class User {
         this.resolver = resolver;
     }
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long getId() {

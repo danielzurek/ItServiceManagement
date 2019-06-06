@@ -8,14 +8,14 @@
 <head>
     <meta charset="UTF-8">
     <%@include file="/WEB-INF/views/common/include/meta.jsp" %>
-    <title>IT Service Management | Admin homepage</title>
+    <title>IT Service Management | Registration page</title>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <!-- .wrapper -->
 <div class="wrapper">
 
-    <%@include file="/WEB-INF/views/common/include/header.jsp" %>
-    <%@include file="/WEB-INF/views/common/include/asideAdmin.jsp" %>
+    <%--    <%@include file="/WEB-INF/views/common/include/header.jsp" %>--%>
+    <%--    <%@include file="/WEB-INF/views/common/include/asideAdmin.jsp" %>--%>
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -24,7 +24,7 @@
         <section class="content">
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Create user</h3>
+                    <h3 class="box-title">Registration form</h3>
                 </div>
                 <div class="box-body">
                     <form:form method="POST" modelAttribute="userForm" class="form-signin">

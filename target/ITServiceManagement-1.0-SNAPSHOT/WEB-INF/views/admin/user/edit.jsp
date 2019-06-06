@@ -70,7 +70,7 @@
                         <div class="form-group ${status.error ? 'has-error' : ''}">
                             <label for="roles">Add roles</label>
                             <form:select class="form-control" path="roles" items="${roles}" itemValue="id"
-                                         itemLabel="name">
+                                         itemLabel="name" required="required">
                             </form:select>
                             <form:errors path="roles"></form:errors>
                         </div>

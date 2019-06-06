@@ -38,7 +38,7 @@
                 <!-- /.col -->
             </div>
         </form>
-        <%--<a href="#">I forgot my password</a><br>--%>
+        <a href="/registration/create" class="text-center">Register a new account</a>
 
     </div>
 </div>

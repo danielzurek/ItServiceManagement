@@ -104,4 +104,5 @@ public class AppConfig extends WebMvcConfigurerAdapter {
     public Validator validator() {
         return new LocalValidatorFactoryBean();
     }
+
 }
