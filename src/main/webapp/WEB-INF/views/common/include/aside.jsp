@@ -33,7 +33,7 @@
         <ul class="sidebar-menu">
             <li class="header">Menu</li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="/user/home"><i class="fa fa-home"></i> <span>Homepage</span></a></li>
+            <li class="active"><a href="/admin/homepage"><i class="fa fa-home"></i> <span>Homepage</span></a></li>
             <li><a href="#"><i class="fa fa-cog"></i> <span>Settings</span></a></li>
             <li class="treeview">
                 <a href="#"><i class="fa fa-user"></i> <span>Account</span>

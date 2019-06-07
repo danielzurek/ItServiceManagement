@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d2cff04-74ca-432f-a6c8-8d66c7ade5f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,31 +39,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/registration/RegistrationController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="28" column="23" selection-end-line="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="216">
+              <caret line="33" column="15" lean-forward="true" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -101,12 +100,13 @@
       <find>selected</find>
       <find>description</find>
       <find>box-solid</find>
-      <find>profile</find>
       <find>org.springframework.data</find>
       <find>status</find>
       <find>mysql</find>
       <find>jbcrypt</find>
       <find>sql</find>
+      <find>data-jpa</find>
+      <find>profile</find>
     </findStrings>
     <replaceStrings>
       <replace>category</replace>
@@ -131,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/incident/open.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/headerUser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/user/details.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Group.java" />
@@ -154,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/CommandLineRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/DataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/app/DataLoader.java" />
@@ -173,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/registration/RegistrationController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp" />
       </list>
     </option>
   </component>
@@ -207,8 +207,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,7 +394,7 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
@@ -404,28 +404,8 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITServiceManagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodersLab-FinalProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,7 +419,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559324080049" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITServiceManagementHeroku" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITServiceManagementHeorkuV2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -637,12 +617,14 @@
       <workItem from="1559324768220" duration="753000" />
       <workItem from="1559667489747" duration="9683000" />
       <workItem from="1559744695479" duration="13932000" />
-      <workItem from="1559830358692" duration="230000" />
+      <workItem from="1559830358692" duration="643000" />
+      <workItem from="1559834286305" duration="174000" />
+      <workItem from="1559923434834" duration="1494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344858000" />
+    <option name="totallyTimeSpent" value="346925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,10 +636,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26705757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -675,7 +656,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4997233" weight="0.32936078" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297414" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32719395" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
@@ -741,14 +722,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/company/AdminCompanyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/HomeController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -856,27 +829,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="35" column="109" selection-start-line="35" selection-start-column="109" selection-end-line="35" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/app/CommandLineRunner.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/app/DataSource.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/service/UserServiceImpl.java">
@@ -891,13 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1072,15 +1017,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/controller/admin/user/AdminUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="102">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="1037">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/danielzurek/repository/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#66#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="72" lean-forward="true" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="28" column="23" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/asideAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/include/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" column="15" lean-forward="true" selection-end-line="64" />
         </state>
       </provider>
     </entry>
