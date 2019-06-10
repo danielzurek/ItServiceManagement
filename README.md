@@ -1,6 +1,6 @@
 # IT Service Management
 
-It Service Management is a is an issue tracking system for IT Help Desks.
+It Service Management is an an issue tracking system for IT Help Desks.
 Idea based on ServiceNow application concept with ITIL practices implemented.
 
 ## Heroku Live Demo
